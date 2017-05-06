@@ -10,8 +10,14 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
-[assembly: AssemblyVersion("3.12.0.0")]
-[assembly: AssemblyFileVersion("3.12.0.0")]
+
+// If you changed/added to this library's API, for a release you have to
+// - bump the versions in the following attributes
+// - update the type library binding redirect in PackageExplorer/app.config
+//   oldVersion "1.0.0.0-$typesVersion" newVersion="$typesVersion"
+// - create nuget package from type lib and publish it
+[assembly: AssemblyVersion("3.21.0.0")]
+[assembly: AssemblyFileVersion("3.21.0.0")]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 
